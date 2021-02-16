@@ -18,14 +18,14 @@ During any Machine Learning project, do this:
         []Validate and document any assumptions used
 []PART II: Start implementing the solution
     []Get the data
-    []Start small
-        []Use only 5 rows to model
-        []Only expand when doing a major evaluation
     []Exploratory data analysis
         []Visualize the raw dataset and the features that are there
             []Number of features and rows
             []Missing data
         []Use statistics background to gain insight into the data
+    []Start small
+        []Use only 5 rows to model
+        []Only expand when doing a major evaluation
     []Prepare the data for machine learning algorithms
         []Split the data into train,validation and test sets
         []Cleaning
@@ -42,6 +42,7 @@ During any Machine Learning project, do this:
             []Pick a model
             []Use an ensemble
             []Hyper-parameters
+        []When satisfied with 5 rows, now expand to the full set
     []Check with the real test set
     []Deploy the system
  
