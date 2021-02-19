@@ -20,7 +20,8 @@ the percept sequence and whatever built-in knowledge the agent has
             []Does the agent have all the information it needs to come 
                 to a certain action? Complete state of the environment?
                 []Yes - Fully observable
-                []No - Partially observable
+                []To some extent - Partially observable
+                []No - unobservable i.e. no sensors
             []How many agents interact in this environment
                 []Yes - single agent
                 []No - multiagent
@@ -42,7 +43,18 @@ the percept sequence and whatever built-in knowledge the agent has
                 but do I know how to operate on them
                 []Yes - known
                 []No - unknown
+    []Define the relationship between the agent and environment/nature of task
+        []Initial state
+        []Possible Actions
+        []States
+        []Transition state
+            []Actions and expected consequences
+        []Goal state
+        []Any costs associated e.g. path cost
     []CODE the environment
+        []Pseudocode first
+        []Test
+[]PART II: Defining the solution
     []Define the agent
         []Reflex based - fully observable environment
             []No need to store internal state
@@ -59,7 +71,8 @@ the percept sequence and whatever built-in knowledge the agent has
             []Moves to the state with the highest expected hapiness score
         []Hybrid 
             []A mixture of the above
-[]PART II: Defining the solution
     []Defining a learning algorithm
         []Try out different algorithms and agents
     []CODE the solution algorithm
+        []Pseudocode first
+        []Test
